@@ -81,8 +81,8 @@ public class QuestionsBank {
         final QuestionsList question2 = new QuestionsList("2 - Que cor é azul?", "azul","preto", "branco","amarelo", "azul","","porque azul é a cor do céu");
         final QuestionsList question3 = new QuestionsList("3 - Que cor é preta?","azul","preto", "branco","amarelo", "preto","","porque é escuro");
         final QuestionsList question4 = new QuestionsList("4 - Que cor é branco?","azul","preto", "branco","amarelo", "branco","","poque é a cor da paz");
-        final QuestionsList question5 = new QuestionsList("Que cor é amarelo?","azul","preto", "branco","amarelo", "amarelo","","porque parece o sol");
-        final QuestionsList question6 = new QuestionsList("Que cor é amarelo?","azul","preto", "branco","amarelo", "amarelo","","já falei que parece com o sol");
+        final QuestionsList question5 = new QuestionsList("5 - Que cor é amarelo?","azul","preto", "branco","amarelo", "amarelo","","porque parece o sol");
+        final QuestionsList question6 = new QuestionsList("6 - Que cor é amarelo?","azul","preto", "branco","amarelo", "amarelo","","já falei que parece com o sol");
 
         // adicionando na lista
 
