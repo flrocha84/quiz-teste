@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ED8A93"
+    tools:context=".QuizResults">
+
+    <ImageView
+        android:id="@+id/parabens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/parabens"/>
+
+    <TextView
+        android:id="@+id/sucesso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/parabens"
+        android:text="Você chegou no final!"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sucesso">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/corretas"
+        android:text="Questoões certas : 0"
+        android:textColor="#00C853"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/erradas"
+            android:text="Questoões erradas : 0"
+            android:textColor="#E81F1F"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/novoQuizBtn"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Começar denovo!"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/round_back_green"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp" />
+
+</RelativeLayout>
